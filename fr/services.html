@@ -1,0 +1,116 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="referrer" content="strict-origin-when-cross-origin"><title>Services | SVM Compagnies</title><style>
+:root{--blue:#073b78;--navy:#052b54;--light:#eef5fb;--red:#ed2939;--cyan:#00a1de;--ink:#14253a;--muted:#607187;--line:#d8e2ec;--max:1240px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.55}a{text-decoration:none;color:inherit}button,input,textarea,select{font:inherit}.container{width:min(calc(100% - 32px),var(--max));margin:auto}
+.top{height:4px;background:linear-gradient(90deg,var(--red) 0 33%,#fff 33% 66%,var(--cyan) 66%)}.header{position:sticky;top:0;z-index:70;background:#fff;border-bottom:1px solid var(--line)}.nav{height:88px;display:flex;align-items:center;gap:16px}.logo{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--navy)}.logo img{width:66px;height:66px;object-fit:contain}.tools{margin-left:auto;display:flex;align-items:center;gap:9px}.lang{height:44px;border:1px solid var(--line);background:#fff;font-weight:800;padding:0 10px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 19px;border:1px solid var(--blue);font-weight:800}.btn-blue{background:var(--blue);color:#fff}.hamb{width:46px;height:46px;border:1px solid var(--line);background:#fff;position:relative}.hamb:before,.hamb:after,.hamb span{content:"";position:absolute;left:11px;width:22px;height:2px;background:var(--navy)}.hamb:before{top:14px}.hamb span{top:21px}.hamb:after{top:28px}
+.overlay{position:fixed;z-index:89;inset:0;background:#052b5480}.drawer{position:fixed;z-index:90;right:0;top:0;width:min(430px,92vw);height:100dvh;background:#fff;padding:25px 28px;overflow:auto;transform:translateX(102%);transition:.25s;box-shadow:-20px 0 50px #052b5422}.drawer.open{transform:none}.drawer-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:18px}.close{width:42px;height:42px;background:#fff;border:1px solid var(--line);font-size:1.4rem}.group{padding:20px 0;border-bottom:1px solid var(--line)}.group-title{text-transform:uppercase;font-size:.72rem;letter-spacing:.13em;color:var(--red);font-weight:900}.drawer a.link{display:flex;justify-content:space-between;padding:9px 0;font-weight:800;color:var(--navy)}
+.hero{background:linear-gradient(90deg,var(--blue) 0 56%,var(--light) 56%)}.hero-grid{display:grid;grid-template-columns:56% 44%;min-height:610px}.hero-copy{color:#fff;padding:70px 60px 70px 0;display:flex;flex-direction:column;justify-content:center}.kick{text-transform:uppercase;font-size:.77rem;letter-spacing:.13em;font-weight:900}.hero h1,.page-hero h1{font-size:clamp(3rem,6vw,6rem);line-height:.9;letter-spacing:-.055em;margin:14px 0 24px}.hero p{font-size:1.16rem;color:#dceafa;max-width:650px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn-white{background:#fff;color:var(--blue);border-color:#fff}.hero-side{padding:56px 44px;display:flex;align-items:center;justify-content:center}.preview{width:min(100%,390px);background:#fff;border:1px solid var(--line);box-shadow:0 18px 45px #052b541c}.preview-head{background:var(--navy);color:#fff;padding:22px}.preview-body{padding:26px}.status{color:#277144;font-weight:800}.steps{display:grid;gap:10px;margin-top:20px}.steps div{background:#f5f8fb;border-left:4px solid var(--cyan);padding:13px}
+.trust{border-bottom:1px solid var(--line)}.trust-grid{display:grid;grid-template-columns:repeat(4,1fr)}.trust-grid div{padding:22px;border-right:1px solid var(--line)}.trust strong{display:block;color:var(--blue)}
+section{padding:82px 0}.bg{background:#f5f8fb}.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:34px}.head h2{font-size:clamp(2.3rem,4.5vw,4.3rem);line-height:.95;color:var(--navy);margin:8px 0}.head p{max-width:490px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);border-left:1px solid var(--line);border-top:1px solid var(--line)}.card{padding:28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-height:280px;background:#fff;display:flex;flex-direction:column}.card h3{margin-top:45px;color:var(--navy);font-size:1.45rem}.card p{color:var(--muted)}.card a{margin-top:auto;color:var(--blue);font-weight:900}
+.emergency{background:var(--blue);color:#fff;padding:40px 0}.emergency .container{display:flex;align-items:center;justify-content:space-between;gap:25px}.emergency h2{font-size:clamp(2rem,4vw,3.6rem);line-height:1;margin:5px 0}
+.visuals{display:grid;grid-template-columns:1fr 1fr}.visual{min-height:390px;position:relative;display:flex;align-items:flex-end;overflow:hidden}.visual:before{content:"";position:absolute;inset:0;background-size:cover;background-position:center;opacity:.34}.visual.keys:before{background-image:linear-gradient(#073b7860,#073b7860),url('../assets/keys-cylinder.png')}.visual.door:before{background-image:linear-gradient(#052b5465,#052b5465),url('../assets/locksmith-door.png')}.visual-content{position:relative;z-index:1;background:#fff;padding:24px;width:min(82%,430px);margin:28px;border-left:4px solid var(--red)}.visual-content h3{margin:0;color:var(--navy)}
+.map-grid{display:grid;grid-template-columns:.75fr 1.25fr;border:1px solid var(--line)}.map-copy{padding:42px;background:#fff}.map-frame{min-height:470px;background:#e9f1f8}.map-frame iframe{width:100%;height:470px;border:0;display:block}.towns{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.pill{border:1px solid var(--line);padding:9px 12px;background:#fff;font-weight:700}
+.page-hero{background:var(--blue);color:#fff;padding:64px 0}.page-hero p{color:#dceafa;max-width:720px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.box{border:1px solid var(--line);padding:28px;background:#fff}.checks{display:grid;gap:12px;margin:20px 0}.check{display:flex;gap:10px}.check b{width:24px;height:24px;background:var(--blue);color:#fff;display:grid;place-items:center}
+.faq-row{border-bottom:1px solid var(--line)}.faq-q{width:100%;border:0;background:#fff;padding:22px 0;text-align:left;display:flex;justify-content:space-between;font-weight:800}.faq-a{padding:0 0 22px;color:var(--muted)}.form{display:grid;gap:12px}.field{display:grid;gap:5px}.field input,.field textarea,.field select{padding:13px;border:1px solid var(--line);border-radius:0}.field textarea{min-height:120px}
+footer{background:var(--navy);color:#fff;padding:55px 0 90px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:35px}footer a{display:block;color:#bdd0e4;margin:7px 0}.mobilebar{display:none}
+@media(max-width:900px){.nav>.btn-blue{display:none}.hero{background:var(--blue)}.hero-grid{grid-template-columns:1fr}.hero-copy{padding:55px 0 30px}.hero-side{background:var(--light);padding:35px 22px 45px}.trust-grid{grid-template-columns:1fr 1fr}.cards{grid-template-columns:1fr 1fr}.visuals,.map-grid,.grid2{grid-template-columns:1fr}.head{align-items:start;flex-direction:column}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.container{width:min(calc(100% - 22px),var(--max))}.nav{height:72px}.logo img{width:50px;height:50px}.logo b{display:none}.tools .btn{display:none}.lang{width:65px}.hero h1{font-size:clamp(3rem,15vw,4.8rem)}.trust-grid,.cards{grid-template-columns:1fr}.visuals{grid-template-columns:1fr}.emergency .container{align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr}body{padding-bottom:65px}.mobilebar{display:grid;grid-template-columns:1fr 1fr;position:fixed;z-index:80;bottom:0;left:0;right:0;background:#fff;padding:8px;border-top:1px solid var(--line);gap:8px}.map-frame,.map-frame iframe{min-height:390px;height:390px}}
+
+/* V7 premium refinements */
+.desktop-links{display:flex;align-items:center;gap:21px;margin-left:auto;font-size:.9rem;font-weight:800;color:var(--navy)}
+.desktop-links a{position:relative;padding:32px 0}.desktop-links a:after{content:"";position:absolute;left:0;right:100%;bottom:23px;height:2px;background:var(--red);transition:.2s}.desktop-links a:hover:after{right:0}
+.tools{margin-left:0}
+body:before{content:"";position:fixed;z-index:-1;right:-130px;bottom:-150px;width:560px;height:560px;background:url('../assets/logo-svm.png') center/contain no-repeat;opacity:.025;pointer-events:none;filter:grayscale(1)}
+.big-call{position:relative;min-height:520px;display:flex;align-items:center;overflow:hidden;background:#052b54;color:#fff}
+.big-call:before{content:"";position:absolute;inset:0;background:url('../assets/locked-door.png') center 48%/cover no-repeat;opacity:.58;transform:scale(1.025)}
+.big-call:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,43,84,.94),rgba(7,59,120,.76) 58%,rgba(0,161,222,.48))}
+.big-call-inner{position:relative;z-index:2;width:min(calc(100% - 32px),var(--max));margin:auto;padding:80px 0;display:flex;align-items:end;justify-content:space-between;gap:45px}
+.big-call-copy{max-width:790px}.big-call h2{font-size:clamp(3.2rem,6.7vw,6.8rem);line-height:.88;letter-spacing:-.06em;margin:12px 0 22px}.big-call p{font-size:1.15rem;max-width:650px;color:#e4eff9}
+.big-call .btn-call{min-height:64px;padding:0 30px;background:#fff;color:var(--blue);border:0;font-size:1.05rem;white-space:nowrap}
+.service-zone-bottom{padding-top:90px;padding-bottom:90px;background:#f5f8fb;border-top:1px solid var(--line)}
+.service-zone-bottom .map-grid{box-shadow:0 18px 45px rgba(5,43,84,.08)}
+footer{position:relative;overflow:hidden}footer:after{content:"";position:absolute;right:-40px;bottom:-170px;width:500px;height:500px;background:url('../assets/logo-svm.png') center/contain no-repeat;opacity:.045;filter:grayscale(1) brightness(3);pointer-events:none}
+@media(max-width:1050px){.desktop-links{display:none}.tools{margin-left:auto}}
+@media(max-width:760px){.big-call{min-height:500px}.big-call-inner{align-items:flex-start;flex-direction:column;justify-content:center}.big-call h2{font-size:clamp(3rem,15vw,5rem)}}
+
+/* V8 — logo transparent intégré et ordre des sections */
+.preview{
+  position:relative;
+  min-height:430px;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 70% 30%,rgba(0,161,222,.14),transparent 48%),
+    linear-gradient(145deg,#ffffff 0%,#edf5fb 100%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:38px;
+}
+.preview:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url('../assets/svm-horizontal-transparent.png') center/88% auto no-repeat;
+  opacity:.16;
+  filter:saturate(.9);
+  pointer-events:none;
+}
+.preview-head{display:none!important}
+.preview-body{
+  position:relative;
+  z-index:2;
+  width:min(100%,340px);
+  margin:0;
+  padding:25px;
+  background:rgba(255,255,255,.86);
+  border:1px solid rgba(7,59,120,.13);
+  backdrop-filter:blur(7px);
+  -webkit-backdrop-filter:blur(7px);
+}
+.preview-body:before{
+  content:"";
+  display:block;
+  width:150px;
+  height:72px;
+  margin:0 auto 18px;
+  background:url('../assets/svm-horizontal-transparent.png') center/contain no-repeat;
+}
+body:before{
+  background-image:url('../assets/svm-horizontal-transparent.png')!important;
+  background-position:right bottom!important;
+  background-size:620px auto!important;
+  opacity:.022!important;
+}
+footer:after{
+  background-image:url('../assets/svm-horizontal-transparent.png')!important;
+  width:620px!important;
+  height:310px!important;
+  right:-90px!important;
+  bottom:-80px!important;
+  opacity:.04!important;
+}
+.services-near-footer{padding-top:92px;padding-bottom:92px;background:#fff}
+@media(max-width:900px){
+  .preview{min-height:390px;padding:28px 20px}
+  .preview:before{background-size:105% auto;opacity:.12}
+}
+
+/* V9 preview background + CTA */
+.hero-side{position:relative;isolation:isolate;overflow:hidden;background:#edf5fb}
+.hero-side:before{content:"";position:absolute;inset:0;background:url('../assets/serrure-preview.webp') center/cover no-repeat;opacity:.30;z-index:-2;transform:scale(1.02)}
+.hero-side:after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,rgba(237,245,251,.90),rgba(219,237,250,.70) 58%,rgba(7,59,120,.24));z-index:-1}
+.preview{background:rgba(255,255,255,.72)!important;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(7,59,120,.16);box-shadow:0 22px 58px rgba(5,43,84,.16)}
+.preview:before{display:none!important}.preview-body:before{display:none!important}.preview-body{background:rgba(255,255,255,.80)!important;width:min(100%,350px)}
+.preview-call{display:flex;width:100%;margin-top:16px;min-height:52px;background:var(--blue);color:#fff;border:1px solid var(--blue);align-items:center;justify-content:center;font-weight:900;text-transform:uppercase;letter-spacing:.035em}
+.preview-call:hover{background:var(--navy)}
+@media(max-width:900px){.hero-side:before{opacity:.27}.hero-side:after{background:linear-gradient(rgba(237,245,251,.82),rgba(225,240,250,.72))}}
+</style></head><body><div id="app"><div class="top"></div>
+<header class="header"><div class="container nav"><a class="logo" href="index.html"><img src="../assets/svm-horizontal-transparent.png" alt="SVM Compagnies" style="width:152px;height:64px;object-fit:contain"></a><nav class="desktop-links"><a href="services.html">Services</a><a href="tarifs.html">Tarifs</a><a href="zones.html">Zones</a><a href="avis.html">Avis</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav><div class="tools"><a class="btn btn-blue" href="tel:+33000000000">☎ Appeler</a><select class="lang" aria-label="Langue" onchange="location.href=this.value"><option value="../fr/services.html" selected>FR</option><option value="../en/services.html">EN</option><option value="../de/services.html">DE</option></select><button class="hamb" @click="menu=!menu" aria-label="Menu"><span></span></button></div></div></header><div class="overlay" v-if="menu" @click="menu=false"></div><aside class="drawer" :class="{open:menu}">
+<div class="drawer-head"><a class="logo" href="index.html"><img src="../assets/svm-horizontal-transparent.png" alt="SVM Compagnies" style="width:152px;height:64px;object-fit:contain"></a><button class="close" @click="menu=false" aria-label="Fermer">×</button></div>
+<div class="group"><div class="group-title">Pages principales</div><a class="link" href="index.html">Accueil<span>→</span></a><a class="link" href="services.html">Services<span>→</span></a><a class="link" href="tarifs.html">Tarifs<span>→</span></a><a class="link" href="zones.html">Zones<span>→</span></a></div>
+<div class="group"><div class="group-title">Prestations</div><a class="link" href="ouverture-porte.html">Ouverture de porte<span>→</span></a><a class="link" href="changement-serrure.html">Changement de serrure<span>→</span></a><a class="link" href="securisation.html">Sécurisation<span>→</span></a><a class="link" href="strasbourg.html">Strasbourg<span>→</span></a></div>
+<div class="group"><div class="group-title">Informations</div><a class="link" href="avis.html">Avis<span>→</span></a><a class="link" href="faq.html">FAQ<span>→</span></a><a class="link" href="contact.html">Contact<span>→</span></a></div></aside>
+<main><section class="page-hero"><div class="container"><span class="kick">SVM COMPAGNIES</span><h1>Services</h1><p>Chaque prestation importante possède sa propre page et reste accessible depuis le menu hamburger.</p></div></section><section><div class="container cards"><div class="card"><h3>Ouverture de porte</h3><p>Porte claquée, verrouillée ou mécanisme bloqué.</p><a href="ouverture-porte.html">Voir la prestation →</a></div><div class="card"><h3>Changement de serrure</h3><p>Cylindre, serrure et mécanisme.</p><a href="changement-serrure.html">Voir la prestation →</a></div><div class="card"><h3>Sécurisation</h3><p>Renforcement et mise en sécurité.</p><a href="securisation.html">Voir la prestation →</a></div></div></section></main>
+<footer><div class="container footer-grid"><div><a class="logo" href="index.html"><img src="../assets/svm-horizontal-transparent.png" alt="SVM Compagnies" style="width:152px;height:64px;object-fit:contain"></a><p style="color:#bdd0e4;max-width:500px">Prototype SVM Compagnies — serrurerie Strasbourg. Coordonnées, tarifs, horaires et informations légales à compléter avant publication.</p></div><div><b>Prestations</b><a href="ouverture-porte.html">Ouverture de porte</a><a href="changement-serrure.html">Changement de serrure</a><a href="securisation.html">Sécurisation</a></div><div><b>Informations</b><a href="tarifs.html">Tarifs</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div></div></footer>
+<div class="mobilebar"><a class="btn btn-blue" href="tel:+33000000000">☎ Appeler</a><a class="btn" href="contact.html">Devis</a></div></div>
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script><script>Vue.createApp({data(){return{menu:false,faq:0}}}).mount('#app')</script></body></html>
